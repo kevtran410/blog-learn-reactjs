@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from '../../axios';
+import { withRouter } from 'react-router-dom';
 
 import Post from '../../components/Post/Post';
 import './Posts.css';
